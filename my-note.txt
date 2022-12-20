@@ -1,0 +1,8 @@
+├── ansible.cfg             
+└── .circleci
+    └── config.yml          # Look for the configure_infrastructure Job
+
+Prerequisite:
+
+Create an EC2 instance and note it's public IP address
+Add the contents of your PEM file to the SSH keys in your Circle CI account to get the fingerprints
